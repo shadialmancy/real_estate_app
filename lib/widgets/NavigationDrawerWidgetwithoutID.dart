@@ -5,7 +5,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:real_estate_app/Pages/login.dart';
 import 'package:real_estate_app/constants.dart';
 import 'package:real_estate_app/functions.dart';
-import 'package:real_estate_app/services/Classes/userClass.dart';
+// import 'package:real_estate_app/services/Classes/userClass.dart';
 import 'package:real_estate_app/widgets/buildHeader.dart';
 import 'package:http/http.dart' as http;
 import 'buildMenuItem.dart';

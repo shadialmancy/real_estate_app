@@ -5,14 +5,19 @@ import 'package:flutter/material.dart';
 import 'package:real_estate_app/Pages/Profile/MainProfile.dart';
 import 'package:real_estate_app/Pages/Property/homepage.dart';
 import 'package:real_estate_app/Pages/login.dart';
-import 'package:real_estate_app/Payment/in-purchase_app_page.dart';
+// import 'package:real_estate_app/Payment/in-purchase_app_page.dart';
 import 'package:real_estate_app/constants.dart';
-import 'package:real_estate_app/services/Classes/userClass.dart';
-import 'package:real_estate_app/services/payment-services.dart';
+// import 'package:real_estate_app/services/Classes/userClass.dart';
+// import 'package:real_estate_app/services/payment-services.dart';
 import 'package:stripe_payment/stripe_payment.dart';
 import 'package:sn_progress_dialog/sn_progress_dialog.dart';
-import 'Payment/existingvisapage.dart';
+// import 'Payment/existingvisapage.dart';
 import 'package:http/http.dart' as http;
+
+import 'Classes/userClass.dart';
+import 'Pages/Payment/existingvisapage.dart';
+import 'Pages/Payment/in-purchase_app_page.dart';
+import 'Pages/Payment/services/payment-services.dart';
 
 List fetchData = [];
 List<UserClass> userModel = [];

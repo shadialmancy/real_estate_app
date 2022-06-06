@@ -1,13 +1,20 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:flutter/material.dart';
-import 'package:real_estate_app/Payment/paymentmainpage.dart';
+import 'package:real_estate_app/Pages/Payment/services/funds.dart';
+// import 'package:real_estate_app/Payment/paymentmainpage.dart';
 import 'package:real_estate_app/functions.dart';
 
-import '../constants.dart';
-import '../services/funds.dart';
-import '../widgets/NavigationDrawerWidgetwithID.dart';
-import '../widgets/NavigationDrawerWidgetwithoutID.dart';
+import '../../constants.dart';
+// import '../../services/funds.dart';
+import '../../widgets/NavigationDrawerWidgetwithID.dart';
+import '../../widgets/NavigationDrawerWidgetwithoutID.dart';
+import 'paymentmainpage.dart';
+
+// import '../constants.dart';
+// import '../services/funds.dart';
+// import '../widgets/NavigationDrawerWidgetwithID.dart';
+// import '../widgets/NavigationDrawerWidgetwithoutID.dart';
 
 class InPurchaseAppPage extends StatefulWidget {
   int userID;

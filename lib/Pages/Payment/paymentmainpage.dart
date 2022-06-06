@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:real_estate_app/services/payment-services.dart';
+import 'package:real_estate_app/Pages/Payment/services/payment-services.dart';
+// import 'package:real_estate_app/services/payment-services.dart';
 
-import '../constants.dart';
-import '../functions.dart';
-import '../widgets/NavigationDrawerWidgetwithID.dart';
+import '../../constants.dart';
+import '../../functions.dart';
+import '../../widgets/NavigationDrawerWidgetwithID.dart';
+
+// import '../constants.dart';
+// import '../functions.dart';
+// import '../widgets/NavigationDrawerWidgetwithID.dart';
 
 class PaymentMainPage extends StatefulWidget {
   String numofCoins, cost;

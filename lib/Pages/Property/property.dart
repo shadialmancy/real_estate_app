@@ -7,12 +7,14 @@ import 'package:image_picker/image_picker.dart';
 import 'package:real_estate_app/Pages/login.dart';
 import 'package:real_estate_app/functions.dart';
 import 'package:real_estate_app/widgets/map.dart';
-import '../../Payment/in-purchase_app_page.dart';
+import '../../Classes/propertyclass.dart';
+// import '../../Payment/in-purchase_app_page.dart';
 import '../../constants.dart';
-import '../../services/Classes/propertyclass.dart';
+// import '../../services/Classes/propertyclass.dart';
 
 import '../../widgets/NavigationDrawerWidgetwithID.dart';
 import '../../widgets/NavigationDrawerWidgetwithoutID.dart';
+import '../Payment/in-purchase_app_page.dart';
 
 class PropertyPage extends StatefulWidget {
   int propertyid = 0;
