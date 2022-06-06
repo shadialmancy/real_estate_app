@@ -7,7 +7,7 @@ import 'package:real_estate_app/functions.dart';
 import 'package:flutter_credit_card/credit_card_widget.dart';
 import 'package:http/http.dart' as http;
 
-import '../../Classes/visacard.dart';
+import '../../Classes/visacardClass.dart';
 import '../../widgets/NavigationDrawerWidgetwithID.dart';
 import '../../widgets/NavigationDrawerWidgetwithoutID.dart';
 
