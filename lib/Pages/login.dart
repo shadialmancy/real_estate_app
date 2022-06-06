@@ -10,7 +10,7 @@ import 'package:http/http.dart' as http;
 // import 'package:real_estate_app/services/Classes/userClass.dart';
 
 // import '../forgetpasswordpage.dart';
-import 'forgetpasswordpage.dart';
+import 'Profile/forgetpasswordpage.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
